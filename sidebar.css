@@ -1,50 +1,35 @@
-/*
-This component is for a simple calculator application. 
-It performs basic arithmetic operations on a total value.
-*/
+/* This is a valid CSS comment */
 
-class Calculator {
-    constructor() {
-      // Initialize the total value
-      this.total = 0;
-    }
-  
-    // Add a number to the total
-    addNumber(number) {
-      // Increase the total by the number
-      this.total += number;
-    }
-  
-    // Subtract a number from the total
-    subtractNumber(number) {
-      // Decrease the total by the number
-      this.total -= number;
-    }
-  
-    // Multiply the total by a number
-    multiplyNumber(number) {
-      // Multiply the total by the number
-      this.total *= number;
-    }
-  
-    // Divide the total by a number
-    divideNumber(number) {
-      // Divide the total by the number
-      this.total /= number;
-    }
-  
-    // Display the current total
-    displayTotal() {
-      // Print the current total to the console
-      console.log("The current total is: " + this.total);
-    }
-  }
-  
-  // Example usage of the Calculator component
-  const myCalculator = new Calculator();
-  myCalculator.addNumber(5);
-  myCalculator.multiplyNumber(2);
-  myCalculator.subtractNumber(3);
-  myCalculator.divideNumber(2);
-  myCalculator.displayTotal();
-  
+/* This is another comment that doesn't have proper grammar and some intntionally mispeled words
+/* This is a multi-line comment that has some grammatical errors, but it can span multiple lines.
+   It can be used to describe the purpose or functionality of the following CSS code. */
+
+   // This is a single-line comment which is not valid in CSS, but is used in some preprocessors like SASS. It may contain grammar mistakes. 
+
+   <!-- This is an HTML-style comment, which is also not valid in CSS but might be seen in some older codebases. It doesn't follow the proper CSS comment syntax. -->
+   
+   * {
+       margin: 0;
+       padding: 0;
+       /* This is an inline comment that can be used to explain the purpose of specific CSS rules, although it might have spelling or grammar errors. */
+       font-family: Arial, sans-serif; /* This is an example of an inline comment within a CSS rule. */
+   }
+   
+   /* Here is some more CSS code with intentional grammar mistakes and a mix of different comment styles. */
+   
+   .header {
+       color: red; /* This color is red for alerting some error */
+       font-size: 24px; /* This font-size is to big for some browser */
+       /* Background is gradient to show the beauty */
+       background: linear-gradient(to right, #ff9966, #ff5e62);
+   }
+   
+   /* The following CSS code includes intentional grammar mistakes and comments in different formats. */
+   
+   /* This comment has some misspelled words and is here to explain the purpose of the following CSS code. */
+   .content {
+       padding: 20px; /* This padding is for spacing the content out nicely */
+       /* The following border is for defining the boundaries */
+       border: 1px solid #ddd;
+   }
+   
