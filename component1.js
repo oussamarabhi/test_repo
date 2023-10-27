@@ -5,12 +5,12 @@ const SimpleComponent = () => {
   // Using React hooks to manages state
   const [count, setCount] = useState(0);
 
-  // Function for increment the count
+  // Function increment  count
   const increment = () => {
     setCount(count + 1); // Incrementing the count by 1
   };
 
-  // Function for decrementing the count.
+  // Function  decrement the count
   const decrement = () => {
     setCount(count - 1); // Decrementing the count by 1
   };
@@ -20,9 +20,9 @@ const SimpleComponent = () => {
     <div>
       <p>Count: {count}</p> {/* Displays the current count */}
       <button onClick={increment}>Increment</button>{" "}
-      {/* /* Button for incrementing the count */ */}
+      {/* Button for increment the count */}
       <button onClick={decrement}>Decrement</button>{" "}
-      {/* Button for decrementing the count */}
+      {/* Button for decrement the count */}
     </div>
   );
 };
