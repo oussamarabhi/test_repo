@@ -5,7 +5,7 @@ It showcases the usage of functions and arithmetic operations in Python.
 
 # This function will multipli two numbers
 def multiply_numbers(x, y):
-    # Here we retur the product
+    # Here we return the product.
     return x * y
 
 # Test the function with sample values
