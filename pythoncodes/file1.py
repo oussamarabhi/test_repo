@@ -1,10 +1,19 @@
-""" This is a simple Python script to calculate the square of a number. It takes user input and prints the result. """
+# This is a simple Python script that calculate the sum of two numbers.
+# This is the first number
+num1 = 10
 
-# Take user inputt
-number = float(input("Enter a number: "))
+# This is the second number
+num2 = 20
 
-# Calculate square
-square = number ** 2
+# Summation of the two numbers
+result = num1 + num2
 
-# Print the result.
-print(f"The square of {number} is {square}")
+"""
+This is a multiline comment that prints the result of the summation.
+Here we prints the result to the console, and check for if the result is greater that 10.
+"""
+
+if result > 10:
+    print("The summation is greater that 10. The result is: ", result)
+else:
+    print("The summation is smaller than 10. The result is: ", result)
