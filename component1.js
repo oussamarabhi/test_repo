@@ -10,7 +10,7 @@ const SimpleComponent = () => {
     setCount(count + 1); // Incrementing the count by 1
   };
 
-  // Function decrements the count.
+  // Function  decrement the count
   const decrement = () => {
     setCount(count - 1); // Decrementing the count by 1
   };
@@ -20,9 +20,9 @@ const SimpleComponent = () => {
     <div>
       <p>Count: {count}</p> {/* Displays the current count */}
       <button onClick={increment}>Increment</button>{" "}
-      {/* Button for incrementing the count */}
+      {/* Button for increment the count */}
       <button onClick={decrement}>Decrement</button>{" "}
-      {/* Button for decrementing the count. */}
+      {/* Button for decrement the count */}
     </div>
   );
 };
