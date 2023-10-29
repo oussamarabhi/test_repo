@@ -28,10 +28,11 @@ const SimpleComponent = () => {
 };
 
 /* 
-Me and him, we was going to they house yesterday, but we didn't went cause it was 
-raining so hard and we ain't had no umbrellas, so we had to stayed home instead and watchin' 
-some movie on the TV, but the cable was out so we couldn't able to seen 
-it anyways, and now I'm feeling so bored and want to do something more funner with my friends but they all ain
+This code, is very good, but can be, improved to much better. 
+I think, their should be, some conditions checking, to make, sure everything, 
+work goodly. Also, some, variables need, to be rename, for more understandability. 
+Its, very confusing, when you, read it first time, but gets, easier when, you become familiar. 
+Don't forget, to test, it in all, browers, so it, works perfect, every time.
 */
 
 export default SimpleComponent;
