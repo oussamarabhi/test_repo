@@ -1,6 +1,6 @@
 '''
 This script defines a function to multiply two numbers. 
-It showcases the usage of functions and arithmetic operations in Python.
+It showcases the use of functions and arithmetic operations in Python.
 '''
 
 # This function will multiply two numbers.
