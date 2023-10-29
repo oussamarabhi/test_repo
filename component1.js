@@ -5,13 +5,6 @@ const SimpleComponent = () => {
   // Using React hooks to manages state
   const [count, setCount] = useState(0);
 
-  /* 
-This code, is very good, but can be, improved to much better. 
-I think, their should be, some conditions checking, to make, sure everything, 
-work goodly. Also, some, variables need, to be rename, for more understandability. 
-Its, very confusing, when you, read it first time, but gets, easier when, you become familiar. 
-*/
-
   // Function for incrementing the count
   const increment = () => {
     setCount(count + 1); // Incrementing the count by 1
@@ -21,7 +14,6 @@ Its, very confusing, when you, read it first time, but gets, easier when, you be
   const decrement = () => {
     setCount(count - 1); // Decrementing the count by 1
   };
-
   return (
     // JSX code for the component
     <div>
@@ -33,5 +25,12 @@ Its, very confusing, when you, read it first time, but gets, easier when, you be
     </div>
   );
 };
+
+/* 
+This code, is very good, but can be, improved to much better. 
+I think, their should be, some conditions checking, to make, sure everything, 
+work goodly. Also, some, variables need, to be rename, for more understandability. 
+Its, very confusing, when you, read it first time, but gets, easier when, you become familiar. 
+*/
 
 export default SimpleComponent;
