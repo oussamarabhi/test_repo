@@ -27,4 +27,11 @@ const SimpleComponent = () => {
   );
 };
 
+/* 
+Me and him, we was going to they house yesterday, but we didn't went cause it was 
+raining so hard and we ain't had no umbrellas, so we had to stayed home instead and watchin' 
+some movie on the TV, but the cable was out so we couldn't able to seen 
+it anyways, and now I'm feeling so bored and want to do something more funner with my friends but they all ain
+*/
+
 export default SimpleComponent;
