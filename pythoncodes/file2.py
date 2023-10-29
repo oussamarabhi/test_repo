@@ -3,7 +3,7 @@ This script defines a function to multiply two numbers.
 It showcases the usage of functions and arithmetic operations in Python.
 '''
 
-# This function will multipli two numbers
+# This function will multiply two numbers.
 def multiply_numbers(x, y):
     # Here we return the product.
     return x * y
