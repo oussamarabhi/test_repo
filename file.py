@@ -39,4 +39,3 @@ It provides an overview of the purpose of the script.
 """
 
 print(example_function(3, 4))  # Calling the example_function with arguments 3 and 4
-

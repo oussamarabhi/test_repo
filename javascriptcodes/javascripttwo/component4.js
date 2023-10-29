@@ -1,49 +1,44 @@
 /*
-This component is for a simple calculator application. 
-It performs basic arithmetic operations on a total value.
+This is the component for a simple to-do list application. 
+It allows users to add, remove, and display items in the list.
 */
 
-class Calculator {
+class ToDoList {
   constructor() {
-    // Initialize the total value
-    this.total = 0;
+    // Initialize the list array
+    this.list = [];
   }
 
-  // Add a number to the total
-  addNumber(number) {
-    // Increase the total by the number
-    this.total += number;
+  // Add a new item to the list
+  addItem(item) {
+    // Push the item to the list array
+    this.list.push(item);
   }
 
-  // Subtract a number from the total
-  subtractNumber(number) {
-    // Decrease the total by the number
-    this.total -= number;
+  // Remove an item from the list
+  removeItem(item) {
+    // Find the index of the item in the list
+    const index = this.list.indexOf(item);
+    // If the item exists, remove it from the list
+    if (index !== -1) {
+      this.list.splice(index, 1);
+    }
   }
 
-  // Multiply the total by a number
-  multiplyNumber(number) {
-    // Multiply the total by the number
-    this.total *= number;
-  }
-
-  // Divide the total by a number
-  divideNumber(number) {
-    // Divide the total by the number
-    this.total /= number;
-  }
-
-  // Display the current total
-  displayTotal() {
-    // Print the current total to the console
-    console.log("The current total is: " + this.total);
+  // Display all the items in the list
+  displayItems() {
+    // Loop through each item in the list
+    this.list.forEach((item) => {
+      // Print each item to the console
+      console.log(item);
+    });
   }
 }
 
-// Example usage of the Calculator component
-const myCalculator = new Calculator();
-myCalculator.addNumber(5);
-myCalculator.multiplyNumber(2);
-myCalculator.subtractNumber(3);
-myCalculator.divideNumber(2);
-myCalculator.displayTotal();
+// Example usage of the ToDoList component
+const myList = new ToDoList();
+myList.addItem("Task 1");
+myList.addItem("Task 2");
+myList.displayItems();
+myList.removeItem("Task 1");
+myList.displayItems();

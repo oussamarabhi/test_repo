@@ -4,13 +4,13 @@ import React from "react";
 const PageComponent = () => {
   // Defining some sample data
   const data = [
-    { id: 1, title: "First Item", content: "Content of the first item" }, // Third data points.
-    { id: 2, title: "Second Item", content: "Content of the second item" }, // Third data points.
-    { id: 3, title: "Third Item", content: "Content of the third item" }, // Third data points.
+    { id: 1, title: "First Item", content: "Content of the first item" }, // 1st  data points.
+    { id: 2, title: "Second Item", content: "Content of the second item" }, // 2nd data points.
+    { id: 3, title: "Third Item", content: "Content of the third item" } // 3rd data points.
   ];
 
   return (
-    // JSX code for the page component
+    // JSX codew for the pagew component
     <div>
       <h1>Page Component</h1>
       <ul>
