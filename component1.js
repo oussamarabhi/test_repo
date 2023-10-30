@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-// A simple functional component in React.
+// A simple functioal component in React
 const SimpleComponent = () => {
-  // Using React hooks to manage state.
+  // Using React hooks to manages state
   const [count, setCount] = useState(0);
 
   // Function for incrementing the count
@@ -10,7 +10,7 @@ const SimpleComponent = () => {
     setCount(count + 1); // Incrementing the count by 1
   };
 
-  // Function decrements the count.
+  // Function decrement the count
   const decrement = () => {
     setCount(count - 1); // Decrementing the count by 1
   };
@@ -19,20 +19,18 @@ const SimpleComponent = () => {
     <div>
       <p>Count: {count}</p> {/* Displays the current count */}
       <button onClick={increment}>Increment</button>{" "}
-      {/* Button for incrementing the count. */}
+      {/* Button for increment the count */}
       <button onClick={decrement}>Decrement</button>{" "}
-      {/* Button for decrementing the count */}
+      {/* Button for decrement the count */}
     </div>
   );
 };
 
 /* 
-This code is very good, but it can be
-improved significantly. I think there should be some condition
-checks to ensure everything works correctly. Also, some variables
-need to be renamed for better understandability. Its very
-confusing when you read it the first time, but
-it gets easier once you become familiar with it. 
+This code, is very good, but can be, improved to much better. 
+I think, their should be, some conditions checking, to make, sure everything, 
+work goodly. Also, some, variables need, to be rename, for more understandability. 
+Its, very confusing, when you, read it first time, but gets, easier when, you become familiar. 
 */
 
 export default SimpleComponent;

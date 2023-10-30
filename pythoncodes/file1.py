@@ -1,4 +1,4 @@
-# This is a simple Python script that calculates the sum of two numbers.
+# This is a simple Python script that calculation the sim of of two numbers.
 # This is the first number.
 num1 = 10
 
@@ -11,7 +11,7 @@ result = num1 + num2
 """ 
 This is a multiline comment that prints the result
 of the summation. Here, we print the result to
-the console and check if the result is greater
+the console and check thaf if there is  the result is greater
 than 10. 
 """
 
